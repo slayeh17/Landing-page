@@ -8,6 +8,7 @@ footer {
     display: flex;
     flex-direction: column;
     background-color:#1f2937;
+    flex-wrap: wrap;
 }
 .nav-bar{
     width: 80%;
@@ -15,6 +16,7 @@ footer {
     flex:1;
     display: flex;
     justify-content: space-between;
+    flex-wrap: wrap;
 }
 ul{
     list-style: none;
@@ -22,6 +24,7 @@ ul{
     padding:0;
     display: flex;
     gap:20px;
+    flex-wrap: wrap;
 }
 .header-logo{
     font-size: 24px;
@@ -38,7 +41,7 @@ ul{
     width:80%;
     margin:0 auto;
     display: flex;
-    justify-content: center;
+    justify-content: space-between;
     align-items: center;
     gap:24px;
     padding:100px 0;
@@ -88,10 +91,11 @@ button{
 }
 .sub-texts{
     display: flex;
-    justify-content: center;
     align-items: center;
+    justify-content: space-between;
 }
 .sub-texts p{
+    border: 3px solid white;
     display: flex;
     flex-direction: column;
     align-items: center;
