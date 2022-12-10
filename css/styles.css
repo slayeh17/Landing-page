@@ -3,4 +3,52 @@
 
 body{
     font-family: 'Open Sans', sans-serif;
+    margin:0 auto;
+}
+
+.header,
+footer {
+    background-color: #1f2937;
+}
+.nav-bar{
+    display: flex;
+    justify-content: space-between;
+}
+.header-logo{
+    font-size: 24px;
+    color:#f9faf8;
+    text-decoration: none;
+    font-weight: 700;
+}
+ul{
+    margin:0;
+    padding:0;
+    list-style: none;
+}
+a{
+    text-decoration: none;
+    color:#e5e7eb;
+    font-size: 18px;
+}
+.right-nav-links ul{
+    display: flex;
+    gap:16px;
+}
+.content-under-nav{
+    display: flex;
+    color:#f9faf8;
+}
+.content-under-nav h2{
+    font-weight:900;
+    font-size: 48px;
+}
+.content-under-nav p{
+    font-size: 18px;
+    color:#e5e7eb;
+}
+img{
+    border: 3px solid #3882f6;
+    border-radius: 15px;
+    margin:8px;
+    max-width:400px;
 }
